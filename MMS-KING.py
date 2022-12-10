@@ -662,11 +662,11 @@ def freeq(uid,pwx,tl):
             'cache-control': 'max-age=0',
             'sec-ch-ua': '"Google Chrome";v="103", "Not)A;Brand'';v="24", "Chromium";v="107"', 
             'sec-ch-ua-mobile': '?1'
-            'sec-ch-ua-platform':'"Android"',
-            'sec-fetch-dest':'document',
-            'sec-fetch-mode':'navigate',
-            'sec-fetch-site':'none',
-            'sec-fetch-user':'?1',
+            'sec-ch-ua-platform': '"Windows"',
+            'sec-fetch-dest': 'document',
+            'sec-fetch-mode': 'navigate',
+            'sec-fetch-site': 'none',
+            'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': pro}
             lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
