@@ -180,16 +180,16 @@ for x in range(10):
     uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
 def uaku():
     try:
-        ua=open('bbnew.txt','r').read().splitlines()
+        ua=open('Usher.Agent.txt','r').read().splitlines()
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
-        ua=open('.bbnew.txt','w')
+        a=requests.get('https://github.com/Irtazaha/User.Agents/blob/main/User-Agent.txt.txt').text
+        ua=open('.User.Agent.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
             ua.write(un+'\n') 
-        ua=open('.bbnew.txt','r').read().splitlines()
+        ua=open('.User.Agent.txt','r').read().splitlines()
 
 loop = 0
 cp = []
@@ -662,7 +662,7 @@ def freeq(uid,pwx,tl):
             'cache-control': 'max-age=0',
             'sec-ch-ua': '"Google Chrome";v="103", "Not)A;Brand'';v="24", "Chromium";v="107"', 
             'sec-ch-ua-mobile': '?1'
-            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform': '"Window"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
             'sec-fetch-site': 'none',
